@@ -14,6 +14,14 @@ require 'pry'
   #   }
   # }
 
-def remove_strawberry(contacts)
-  # contacts["Jon Snow"][:favorite_ice_cream_flavors].shift
-end
+
+  def remove_strawberry(contacts)
+    contacts.each do |person, contact_details_hash|
+      binding.pry
+    end
+  end
+
+# def remove_strawberry(contacts)
+#   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
+#   contacts
+# end
